@@ -114,9 +114,34 @@ footer {
   #desktop { display: inline; }
 }
 
+table {
+  border: 1px solid #3399CC;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #3399CC;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+tr:nth-of-type(even) {
+  background-color: #DFEDF8;
+}
+
 @media (min-width: 900px) {
   #homehero, #yurthero, #trailhero {
     background-size: 120% 100%;
   }
 }
+
 
